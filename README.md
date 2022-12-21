@@ -18,3 +18,6 @@ At CoastFM we don't auto updates, this stops it from happeing and gives us time 
 15. On the DefaultMediaCost key, you'll find different entries, including for 3G, 4G, Default, Ethernet, and WiFi with their default data values: 1 or 2. The data value 1 means that the connection type is non-metered, and the data value of 2 means that the connection type is metered. Double-click the Ethernet DWORD (32-bit) Value key, and change the value to 2.
 16. Click OK.
 17. Close the registry and restart your computer to complete the process.
+
+## Useful to know
+Setting your main ethernet adaptor to meatered may have the added benifit of disabling the Microsoft-Windows-UniversalTelemetryClient service.
